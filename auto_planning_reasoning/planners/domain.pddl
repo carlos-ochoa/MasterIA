@@ -5,6 +5,13 @@
 (:types ambulance hospital location patient
 )
 
+(:predicates
+    (at ?ambulance ?location)
+    (connected ?from ?dest)
+    (free ?ambulance)
+    (on ?patient ?ambulance)
+)
+
 (:action move
     :parameters (?a - ambulance ?from - location ?dest - location)
     :precondition (and 
