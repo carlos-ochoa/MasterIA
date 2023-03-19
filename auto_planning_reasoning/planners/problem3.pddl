@@ -8,7 +8,6 @@
 (:init
     (at patient1 l3)
     (at patient2 l4)
-    (at patient3 l6)
     (at ambulancecar hospital)
     (connected hospital l2)
     (connected l2 hospital)
